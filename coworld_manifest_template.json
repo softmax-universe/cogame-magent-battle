@@ -18,11 +18,11 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-magent-battle/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-magent-battle/blob/main/docs/PROTOCOL.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-magent-battle/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-magent-battle/blob/main/docs/PROTOCOL.md"
       }
     },
     "docs": {
@@ -159,7 +159,7 @@
       "description": "The published scripted default and the server-side fallback: squads below 4.0 mean hp retreat to heal, squads with a visible enemy centroid within 3 cells focus it, and the rest split into a left wing, a centre and a right wing.",
       "image": "{{MAGENT_BATTLE_IMAGE}}",
       "run": ["/bin/magent-battle-player"],
-      "source_url": "https://github.com/Metta-AI/cogame-magent-battle",
+      "source_url": "https://github.com/softmax-universe/cogame-magent-battle",
       "env": {"PLAYER_SCRIPTED": "pincer"},
       "resources": {
         "requests": {"cpu": "100m", "memory": "64Mi"},
@@ -173,7 +173,7 @@
       "description": "Every squad advances, every turn, forever. A mass charge beats a badly split commander, so it is a real opponent and the control against which a commander is measured.",
       "image": "{{MAGENT_BATTLE_IMAGE}}",
       "run": ["/bin/magent-battle-player"],
-      "source_url": "https://github.com/Metta-AI/cogame-magent-battle",
+      "source_url": "https://github.com/softmax-universe/cogame-magent-battle",
       "env": {"PLAYER_SCRIPTED": "line"},
       "resources": {
         "requests": {"cpu": "100m", "memory": "64Mi"},
